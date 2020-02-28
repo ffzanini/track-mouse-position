@@ -9,13 +9,7 @@ $on('mousemove', function(toMove){
 
 var square = $('#square');
 
-var x = void 0,
-	y = void 0,
-	dx = void 0,
-	dy = void 0,
-	tx = 0,
-	ty = 0,
-	key = -1;
+var x = void 0, y = void 0, dx = void 0, dy = void 0, tx = 0, ty = 0, key = -1;
 
 var funcFollowPointer = function() {
 	key = requestAnimationFrame(funcFollowPointer);
